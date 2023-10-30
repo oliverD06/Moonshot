@@ -11,6 +11,15 @@
 		FB01BAAA2AE6C0C800D0D53F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01BAA92AE6C0C800D0D53F /* ContentView.swift */; };
 		FB01BAAC2AE6C0CB00D0D53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB01BAAB2AE6C0CB00D0D53F /* Assets.xcassets */; };
 		FB01BAAF2AE6C0CB00D0D53F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB01BAAE2AE6C0CB00D0D53F /* Preview Assets.xcassets */; };
+		FB01BAB62AE80E2C00D0D53F /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = FB01BAB52AE80E2C00D0D53F /* missions.json */; };
+		FB01BAB82AE80E3B00D0D53F /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = FB01BAB72AE80E3A00D0D53F /* astronauts.json */; };
+		FB01BB122AE8125200D0D53F /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01BB112AE8125200D0D53F /* Astronaut.swift */; };
+		FB01BB142AE8128400D0D53F /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01BB132AE8128400D0D53F /* Bundle-Decodable.swift */; };
+		FB01BB162AE8146F00D0D53F /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01BB152AE8146F00D0D53F /* Mission.swift */; };
+		FB01BB182AE8199E00D0D53F /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01BB172AE8199E00D0D53F /* Color-Theme.swift */; };
+		FB01BB1A2AE96D5400D0D53F /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01BB192AE96D5400D0D53F /* AstronautView.swift */; };
+		FB01BB1C2AEAB5F800D0D53F /* AstronautScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB01BB1B2AEAB5F800D0D53F /* AstronautScrollView.swift */; };
+		FBCBB6BE2AEAC4BF008043B9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCBB6BD2AEAC4BF008043B9 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,103 @@
 		FB01BAA92AE6C0C800D0D53F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB01BAAB2AE6C0CB00D0D53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB01BAAE2AE6C0CB00D0D53F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB01BAB52AE80E2C00D0D53F /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		FB01BAB72AE80E3A00D0D53F /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		FB01BAB92AE8121000D0D53F /* schirra@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "schirra@3x.jpg"; path = "../../../Downloads/schirra@3x.jpg"; sourceTree = "<group>"; };
+		FB01BABA2AE8121000D0D53F /* shepard@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "shepard@2x.jpg"; path = "../../../Downloads/shepard@2x.jpg"; sourceTree = "<group>"; };
+		FB01BABB2AE8121000D0D53F /* chaffee@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chaffee@3x.jpg"; path = "../../../Downloads/chaffee@3x.jpg"; sourceTree = "<group>"; };
+		FB01BABC2AE8121000D0D53F /* swigert@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "swigert@3x.jpg"; path = "../../../Downloads/swigert@3x.jpg"; sourceTree = "<group>"; };
+		FB01BABD2AE8121000D0D53F /* swigert@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "swigert@2x.jpg"; path = "../../../Downloads/swigert@2x.jpg"; sourceTree = "<group>"; };
+		FB01BABE2AE8121100D0D53F /* apollo1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo1@2x.png"; path = "../../../Downloads/apollo1@2x.png"; sourceTree = "<group>"; };
+		FB01BABF2AE8121100D0D53F /* scott@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "scott@3x.jpg"; path = "../../../Downloads/scott@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAC02AE8121100D0D53F /* stafford@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "stafford@2x.jpg"; path = "../../../Downloads/stafford@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAC12AE8121100D0D53F /* anders@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "anders@3x.jpg"; path = "../../../Downloads/anders@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAC22AE8121100D0D53F /* scott@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "scott@2x.jpg"; path = "../../../Downloads/scott@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAC32AE8121100D0D53F /* white@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "white@2x.jpg"; path = "../../../Downloads/white@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAC42AE8121100D0D53F /* apollo8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo8@3x.png"; path = "../../../Downloads/apollo8@3x.png"; sourceTree = "<group>"; };
+		FB01BAC52AE8121200D0D53F /* apollo8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo8@2x.png"; path = "../../../Downloads/apollo8@2x.png"; sourceTree = "<group>"; };
+		FB01BAC62AE8121200D0D53F /* irwin@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "irwin@3x.jpg"; path = "../../../Downloads/irwin@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAC72AE8121200D0D53F /* apollo14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo14@2x.png"; path = "../../../Downloads/apollo14@2x.png"; sourceTree = "<group>"; };
+		FB01BAC82AE8121200D0D53F /* worden@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "worden@3x.jpg"; path = "../../../Downloads/worden@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAC92AE8121200D0D53F /* schmitt@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "schmitt@2x.jpg"; path = "../../../Downloads/schmitt@2x.jpg"; sourceTree = "<group>"; };
+		FB01BACA2AE8121200D0D53F /* stafford@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "stafford@3x.jpg"; path = "../../../Downloads/stafford@3x.jpg"; sourceTree = "<group>"; };
+		FB01BACB2AE8121200D0D53F /* haise@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "haise@3x.jpg"; path = "../../../Downloads/haise@3x.jpg"; sourceTree = "<group>"; };
+		FB01BACC2AE8121200D0D53F /* roosa@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "roosa@3x.jpg"; path = "../../../Downloads/roosa@3x.jpg"; sourceTree = "<group>"; };
+		FB01BACD2AE8121200D0D53F /* cunningham@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cunningham@2x.jpg"; path = "../../../Downloads/cunningham@2x.jpg"; sourceTree = "<group>"; };
+		FB01BACE2AE8121200D0D53F /* collins@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "collins@3x.jpg"; path = "../../../Downloads/collins@3x.jpg"; sourceTree = "<group>"; };
+		FB01BACF2AE8121300D0D53F /* bean@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bean@3x.jpg"; path = "../../../Downloads/bean@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAD02AE8121300D0D53F /* armstrong@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "armstrong@2x.jpg"; path = "../../../Downloads/armstrong@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAD12AE8121300D0D53F /* apollo13@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo13@3x.png"; path = "../../../Downloads/apollo13@3x.png"; sourceTree = "<group>"; };
+		FB01BAD22AE8121300D0D53F /* haise@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "haise@2x.jpg"; path = "../../../Downloads/haise@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAD32AE8121300D0D53F /* roosa@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "roosa@2x.jpg"; path = "../../../Downloads/roosa@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAD42AE8121300D0D53F /* apollo12@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo12@3x.png"; path = "../../../Downloads/apollo12@3x.png"; sourceTree = "<group>"; };
+		FB01BAD52AE8121300D0D53F /* borman@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "borman@2x.jpg"; path = "../../../Downloads/borman@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAD62AE8121400D0D53F /* apollo11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo11@2x.png"; path = "../../../Downloads/apollo11@2x.png"; sourceTree = "<group>"; };
+		FB01BAD72AE8121400D0D53F /* chaffee@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chaffee@2x.jpg"; path = "../../../Downloads/chaffee@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAD82AE8121400D0D53F /* apollo11@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo11@3x.png"; path = "../../../Downloads/apollo11@3x.png"; sourceTree = "<group>"; };
+		FB01BAD92AE8121400D0D53F /* apollo16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo16@2x.png"; path = "../../../Downloads/apollo16@2x.png"; sourceTree = "<group>"; };
+		FB01BADA2AE8121400D0D53F /* schirra@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "schirra@2x.jpg"; path = "../../../Downloads/schirra@2x.jpg"; sourceTree = "<group>"; };
+		FB01BADB2AE8121400D0D53F /* apollo12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo12@2x.png"; path = "../../../Downloads/apollo12@2x.png"; sourceTree = "<group>"; };
+		FB01BADC2AE8121400D0D53F /* apollo1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo1@3x.png"; path = "../../../Downloads/apollo1@3x.png"; sourceTree = "<group>"; };
+		FB01BADD2AE8121400D0D53F /* apollo17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo17@2x.png"; path = "../../../Downloads/apollo17@2x.png"; sourceTree = "<group>"; };
+		FB01BADE2AE8121500D0D53F /* apollo10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo10@2x.png"; path = "../../../Downloads/apollo10@2x.png"; sourceTree = "<group>"; };
+		FB01BADF2AE8121500D0D53F /* apollo13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo13@2x.png"; path = "../../../Downloads/apollo13@2x.png"; sourceTree = "<group>"; };
+		FB01BAE02AE8121500D0D53F /* apollo15@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo15@3x.png"; path = "../../../Downloads/apollo15@3x.png"; sourceTree = "<group>"; };
+		FB01BAE12AE8121500D0D53F /* lovell@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lovell@3x.jpg"; path = "../../../Downloads/lovell@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAE22AE8121500D0D53F /* mattingly@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mattingly@2x.jpg"; path = "../../../Downloads/mattingly@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAE32AE8121500D0D53F /* bean@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bean@2x.jpg"; path = "../../../Downloads/bean@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAE42AE8121500D0D53F /* mcdivitt@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mcdivitt@3x.jpg"; path = "../../../Downloads/mcdivitt@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAE52AE8121600D0D53F /* armstrong@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "armstrong@3x.jpg"; path = "../../../Downloads/armstrong@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAE62AE8121600D0D53F /* apollo14@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo14@3x.png"; path = "../../../Downloads/apollo14@3x.png"; sourceTree = "<group>"; };
+		FB01BAE72AE8121600D0D53F /* duke@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "duke@3x.jpg"; path = "../../../Downloads/duke@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAE82AE8121600D0D53F /* white@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "white@3x.jpg"; path = "../../../Downloads/white@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAE92AE8121600D0D53F /* borman@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "borman@3x.jpg"; path = "../../../Downloads/borman@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAEA2AE8121600D0D53F /* duke@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "duke@2x.jpg"; path = "../../../Downloads/duke@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAEB2AE8121600D0D53F /* apollo17@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo17@3x.png"; path = "../../../Downloads/apollo17@3x.png"; sourceTree = "<group>"; };
+		FB01BAEC2AE8121600D0D53F /* aldrin@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "aldrin@2x.jpg"; path = "../../../Downloads/aldrin@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAED2AE8121600D0D53F /* apollo7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo7@2x.png"; path = "../../../Downloads/apollo7@2x.png"; sourceTree = "<group>"; };
+		FB01BAEE2AE8121600D0D53F /* grissom@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "grissom@2x.jpg"; path = "../../../Downloads/grissom@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAEF2AE8121700D0D53F /* mattingly@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mattingly@3x.jpg"; path = "../../../Downloads/mattingly@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAF02AE8121700D0D53F /* grissom@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "grissom@3x.jpg"; path = "../../../Downloads/grissom@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAF12AE8121700D0D53F /* mcdivitt@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mcdivitt@2x.jpg"; path = "../../../Downloads/mcdivitt@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAF22AE8121700D0D53F /* young@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "young@2x.jpg"; path = "../../../Downloads/young@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAF32AE8121800D0D53F /* young@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "young@3x.jpg"; path = "../../../Downloads/young@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAF42AE8121800D0D53F /* cernan@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cernan@3x.jpg"; path = "../../../Downloads/cernan@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAF52AE8121900D0D53F /* evans@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "evans@2x.jpg"; path = "../../../Downloads/evans@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAF62AE8121900D0D53F /* shepard@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "shepard@3x.jpg"; path = "../../../Downloads/shepard@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAF72AE8121900D0D53F /* apollo9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo9@2x.png"; path = "../../../Downloads/apollo9@2x.png"; sourceTree = "<group>"; };
+		FB01BAF82AE8121900D0D53F /* collins@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "collins@2x.jpg"; path = "../../../Downloads/collins@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAF92AE8121900D0D53F /* apollo16@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo16@3x.png"; path = "../../../Downloads/apollo16@3x.png"; sourceTree = "<group>"; };
+		FB01BAFA2AE8121A00D0D53F /* anders@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "anders@2x.jpg"; path = "../../../Downloads/anders@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAFB2AE8121A00D0D53F /* eisele@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "eisele@2x.jpg"; path = "../../../Downloads/eisele@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAFC2AE8121A00D0D53F /* irwin@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "irwin@2x.jpg"; path = "../../../Downloads/irwin@2x.jpg"; sourceTree = "<group>"; };
+		FB01BAFD2AE8121A00D0D53F /* gordon@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gordon@3x.jpg"; path = "../../../Downloads/gordon@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAFE2AE8121A00D0D53F /* schmitt@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "schmitt@3x.jpg"; path = "../../../Downloads/schmitt@3x.jpg"; sourceTree = "<group>"; };
+		FB01BAFF2AE8121B00D0D53F /* cunningham@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cunningham@3x.jpg"; path = "../../../Downloads/cunningham@3x.jpg"; sourceTree = "<group>"; };
+		FB01BB002AE8121B00D0D53F /* conrad@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "conrad@3x.jpg"; path = "../../../Downloads/conrad@3x.jpg"; sourceTree = "<group>"; };
+		FB01BB012AE8121B00D0D53F /* apollo15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo15@2x.png"; path = "../../../Downloads/apollo15@2x.png"; sourceTree = "<group>"; };
+		FB01BB022AE8121B00D0D53F /* conrad@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "conrad@2x.jpg"; path = "../../../Downloads/conrad@2x.jpg"; sourceTree = "<group>"; };
+		FB01BB032AE8121C00D0D53F /* aldrin@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "aldrin@3x.jpg"; path = "../../../Downloads/aldrin@3x.jpg"; sourceTree = "<group>"; };
+		FB01BB042AE8121C00D0D53F /* mitchell@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mitchell@3x.jpg"; path = "../../../Downloads/mitchell@3x.jpg"; sourceTree = "<group>"; };
+		FB01BB052AE8121C00D0D53F /* eisele@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "eisele@3x.jpg"; path = "../../../Downloads/eisele@3x.jpg"; sourceTree = "<group>"; };
+		FB01BB062AE8121C00D0D53F /* schweickart@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "schweickart@2x.jpg"; path = "../../../Downloads/schweickart@2x.jpg"; sourceTree = "<group>"; };
+		FB01BB072AE8121C00D0D53F /* apollo9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo9@3x.png"; path = "../../../Downloads/apollo9@3x.png"; sourceTree = "<group>"; };
+		FB01BB082AE8121C00D0D53F /* worden@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "worden@2x.jpg"; path = "../../../Downloads/worden@2x.jpg"; sourceTree = "<group>"; };
+		FB01BB092AE8121E00D0D53F /* apollo10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo10@3x.png"; path = "../../../Downloads/apollo10@3x.png"; sourceTree = "<group>"; };
+		FB01BB0A2AE8121E00D0D53F /* apollo7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "apollo7@3x.png"; path = "../../../Downloads/apollo7@3x.png"; sourceTree = "<group>"; };
+		FB01BB0B2AE8121E00D0D53F /* cernan@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "cernan@2x.jpg"; path = "../../../Downloads/cernan@2x.jpg"; sourceTree = "<group>"; };
+		FB01BB0C2AE8121F00D0D53F /* gordon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gordon@2x.jpg"; path = "../../../Downloads/gordon@2x.jpg"; sourceTree = "<group>"; };
+		FB01BB0D2AE8121F00D0D53F /* evans@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "evans@3x.jpg"; path = "../../../Downloads/evans@3x.jpg"; sourceTree = "<group>"; };
+		FB01BB0E2AE8121F00D0D53F /* lovell@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lovell@2x.jpg"; path = "../../../Downloads/lovell@2x.jpg"; sourceTree = "<group>"; };
+		FB01BB0F2AE8121F00D0D53F /* schweickart@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "schweickart@3x.jpg"; path = "../../../Downloads/schweickart@3x.jpg"; sourceTree = "<group>"; };
+		FB01BB102AE8121F00D0D53F /* mitchell@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "mitchell@2x.jpg"; path = "../../../Downloads/mitchell@2x.jpg"; sourceTree = "<group>"; };
+		FB01BB112AE8125200D0D53F /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		FB01BB132AE8128400D0D53F /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		FB01BB152AE8146F00D0D53F /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		FB01BB172AE8199E00D0D53F /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
+		FB01BB192AE96D5400D0D53F /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		FB01BB1B2AEAB5F800D0D53F /* AstronautScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautScrollView.swift; sourceTree = "<group>"; };
+		FBCBB6BD2AEAC4BF008043B9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +141,7 @@
 		FB01BA9B2AE6C0C800D0D53F = {
 			isa = PBXGroup;
 			children = (
+				FBCBB6BD2AEAC4BF008043B9 /* ListView.swift */,
 				FB01BAA62AE6C0C800D0D53F /* Moonshot1 */,
 				FB01BAA52AE6C0C800D0D53F /* Products */,
 			);
@@ -53,7 +160,103 @@
 			children = (
 				FB01BAA72AE6C0C800D0D53F /* Moonshot1App.swift */,
 				FB01BAA92AE6C0C800D0D53F /* ContentView.swift */,
+				FB01BB172AE8199E00D0D53F /* Color-Theme.swift */,
+				FB01BB152AE8146F00D0D53F /* Mission.swift */,
+				FB01BB1B2AEAB5F800D0D53F /* AstronautScrollView.swift */,
+				FB01BB192AE96D5400D0D53F /* AstronautView.swift */,
 				FB01BAAB2AE6C0CB00D0D53F /* Assets.xcassets */,
+				FB01BAEC2AE8121600D0D53F /* aldrin@2x.jpg */,
+				FB01BB032AE8121C00D0D53F /* aldrin@3x.jpg */,
+				FB01BAFA2AE8121A00D0D53F /* anders@2x.jpg */,
+				FB01BAC12AE8121100D0D53F /* anders@3x.jpg */,
+				FB01BABE2AE8121100D0D53F /* apollo1@2x.png */,
+				FB01BADC2AE8121400D0D53F /* apollo1@3x.png */,
+				FB01BAED2AE8121600D0D53F /* apollo7@2x.png */,
+				FB01BB0A2AE8121E00D0D53F /* apollo7@3x.png */,
+				FB01BAC52AE8121200D0D53F /* apollo8@2x.png */,
+				FB01BAC42AE8121100D0D53F /* apollo8@3x.png */,
+				FB01BAF72AE8121900D0D53F /* apollo9@2x.png */,
+				FB01BB072AE8121C00D0D53F /* apollo9@3x.png */,
+				FB01BADE2AE8121500D0D53F /* apollo10@2x.png */,
+				FB01BB092AE8121E00D0D53F /* apollo10@3x.png */,
+				FB01BAD62AE8121400D0D53F /* apollo11@2x.png */,
+				FB01BAD82AE8121400D0D53F /* apollo11@3x.png */,
+				FB01BADB2AE8121400D0D53F /* apollo12@2x.png */,
+				FB01BAD42AE8121300D0D53F /* apollo12@3x.png */,
+				FB01BADF2AE8121500D0D53F /* apollo13@2x.png */,
+				FB01BAD12AE8121300D0D53F /* apollo13@3x.png */,
+				FB01BAC72AE8121200D0D53F /* apollo14@2x.png */,
+				FB01BAE62AE8121600D0D53F /* apollo14@3x.png */,
+				FB01BB012AE8121B00D0D53F /* apollo15@2x.png */,
+				FB01BAE02AE8121500D0D53F /* apollo15@3x.png */,
+				FB01BAD92AE8121400D0D53F /* apollo16@2x.png */,
+				FB01BAF92AE8121900D0D53F /* apollo16@3x.png */,
+				FB01BADD2AE8121400D0D53F /* apollo17@2x.png */,
+				FB01BAEB2AE8121600D0D53F /* apollo17@3x.png */,
+				FB01BAD02AE8121300D0D53F /* armstrong@2x.jpg */,
+				FB01BAE52AE8121600D0D53F /* armstrong@3x.jpg */,
+				FB01BAE32AE8121500D0D53F /* bean@2x.jpg */,
+				FB01BACF2AE8121300D0D53F /* bean@3x.jpg */,
+				FB01BAD52AE8121300D0D53F /* borman@2x.jpg */,
+				FB01BAE92AE8121600D0D53F /* borman@3x.jpg */,
+				FB01BB0B2AE8121E00D0D53F /* cernan@2x.jpg */,
+				FB01BAF42AE8121800D0D53F /* cernan@3x.jpg */,
+				FB01BAD72AE8121400D0D53F /* chaffee@2x.jpg */,
+				FB01BABB2AE8121000D0D53F /* chaffee@3x.jpg */,
+				FB01BAF82AE8121900D0D53F /* collins@2x.jpg */,
+				FB01BACE2AE8121200D0D53F /* collins@3x.jpg */,
+				FB01BB022AE8121B00D0D53F /* conrad@2x.jpg */,
+				FB01BB002AE8121B00D0D53F /* conrad@3x.jpg */,
+				FB01BACD2AE8121200D0D53F /* cunningham@2x.jpg */,
+				FB01BAFF2AE8121B00D0D53F /* cunningham@3x.jpg */,
+				FB01BAEA2AE8121600D0D53F /* duke@2x.jpg */,
+				FB01BAE72AE8121600D0D53F /* duke@3x.jpg */,
+				FB01BAFB2AE8121A00D0D53F /* eisele@2x.jpg */,
+				FB01BB052AE8121C00D0D53F /* eisele@3x.jpg */,
+				FB01BAF52AE8121900D0D53F /* evans@2x.jpg */,
+				FB01BB0D2AE8121F00D0D53F /* evans@3x.jpg */,
+				FB01BB0C2AE8121F00D0D53F /* gordon@2x.jpg */,
+				FB01BAFD2AE8121A00D0D53F /* gordon@3x.jpg */,
+				FB01BAEE2AE8121600D0D53F /* grissom@2x.jpg */,
+				FB01BAF02AE8121700D0D53F /* grissom@3x.jpg */,
+				FB01BAD22AE8121300D0D53F /* haise@2x.jpg */,
+				FB01BACB2AE8121200D0D53F /* haise@3x.jpg */,
+				FB01BAFC2AE8121A00D0D53F /* irwin@2x.jpg */,
+				FB01BAC62AE8121200D0D53F /* irwin@3x.jpg */,
+				FB01BB0E2AE8121F00D0D53F /* lovell@2x.jpg */,
+				FB01BAE12AE8121500D0D53F /* lovell@3x.jpg */,
+				FB01BAE22AE8121500D0D53F /* mattingly@2x.jpg */,
+				FB01BAEF2AE8121700D0D53F /* mattingly@3x.jpg */,
+				FB01BAF12AE8121700D0D53F /* mcdivitt@2x.jpg */,
+				FB01BAE42AE8121500D0D53F /* mcdivitt@3x.jpg */,
+				FB01BB102AE8121F00D0D53F /* mitchell@2x.jpg */,
+				FB01BB042AE8121C00D0D53F /* mitchell@3x.jpg */,
+				FB01BAD32AE8121300D0D53F /* roosa@2x.jpg */,
+				FB01BACC2AE8121200D0D53F /* roosa@3x.jpg */,
+				FB01BADA2AE8121400D0D53F /* schirra@2x.jpg */,
+				FB01BAB92AE8121000D0D53F /* schirra@3x.jpg */,
+				FB01BAC92AE8121200D0D53F /* schmitt@2x.jpg */,
+				FB01BAFE2AE8121A00D0D53F /* schmitt@3x.jpg */,
+				FB01BB062AE8121C00D0D53F /* schweickart@2x.jpg */,
+				FB01BB0F2AE8121F00D0D53F /* schweickart@3x.jpg */,
+				FB01BAC22AE8121100D0D53F /* scott@2x.jpg */,
+				FB01BABF2AE8121100D0D53F /* scott@3x.jpg */,
+				FB01BABA2AE8121000D0D53F /* shepard@2x.jpg */,
+				FB01BAF62AE8121900D0D53F /* shepard@3x.jpg */,
+				FB01BAC02AE8121100D0D53F /* stafford@2x.jpg */,
+				FB01BACA2AE8121200D0D53F /* stafford@3x.jpg */,
+				FB01BABD2AE8121000D0D53F /* swigert@2x.jpg */,
+				FB01BABC2AE8121000D0D53F /* swigert@3x.jpg */,
+				FB01BAC32AE8121100D0D53F /* white@2x.jpg */,
+				FB01BAE82AE8121600D0D53F /* white@3x.jpg */,
+				FB01BB082AE8121C00D0D53F /* worden@2x.jpg */,
+				FB01BAC82AE8121200D0D53F /* worden@3x.jpg */,
+				FB01BAF22AE8121700D0D53F /* young@2x.jpg */,
+				FB01BAF32AE8121800D0D53F /* young@3x.jpg */,
+				FB01BAB52AE80E2C00D0D53F /* missions.json */,
+				FB01BAB72AE80E3A00D0D53F /* astronauts.json */,
+				FB01BB112AE8125200D0D53F /* Astronaut.swift */,
+				FB01BB132AE8128400D0D53F /* Bundle-Decodable.swift */,
 				FB01BAAD2AE6C0CB00D0D53F /* Preview Content */,
 			);
 			path = Moonshot1;
@@ -126,7 +329,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB01BAAF2AE6C0CB00D0D53F /* Preview Assets.xcassets in Resources */,
+				FB01BAB62AE80E2C00D0D53F /* missions.json in Resources */,
 				FB01BAAC2AE6C0CB00D0D53F /* Assets.xcassets in Resources */,
+				FB01BAB82AE80E3B00D0D53F /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +342,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB01BB1A2AE96D5400D0D53F /* AstronautView.swift in Sources */,
+				FB01BB122AE8125200D0D53F /* Astronaut.swift in Sources */,
+				FB01BB182AE8199E00D0D53F /* Color-Theme.swift in Sources */,
 				FB01BAAA2AE6C0C800D0D53F /* ContentView.swift in Sources */,
 				FB01BAA82AE6C0C800D0D53F /* Moonshot1App.swift in Sources */,
+				FB01BB162AE8146F00D0D53F /* Mission.swift in Sources */,
+				FB01BB142AE8128400D0D53F /* Bundle-Decodable.swift in Sources */,
+				FB01BB1C2AEAB5F800D0D53F /* AstronautScrollView.swift in Sources */,
+				FBCBB6BE2AEAC4BF008043B9 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
